@@ -52,32 +52,35 @@ st.markdown("""
 <style>
     .main-header {
         font-size: 2.5rem;
-        color: #1f77b4;
+        color: #005EB8;  /* NHS Blue */
         text-align: center;
         margin-bottom: 2rem;
+        font-weight: 600;
     }
     .scenario-section {
-        background-color: #f0f2f6;
+        background-color: #F0F4F5;  /* NHS Light Grey */
         padding: 1rem;
         border-radius: 0.5rem;
         margin: 1rem 0;
+        border-left: 4px solid #005EB8;
     }
     .metric-card {
         background-color: white;
         padding: 1rem;
         border-radius: 0.5rem;
-        border-left: 4px solid #1f77b4;
+        border-left: 4px solid #005EB8;  /* NHS Blue */
         margin: 0.5rem 0;
     }
     .clinical-rationale {
-        background-color: #e8f4f8;
+        background-color: #F0F4F5;  /* NHS Light Grey */
         padding: 1rem;
         border-radius: 0.5rem;
-        border-left: 4px solid #1f77b4;
+        border-left: 4px solid #005EB8;  /* NHS Blue */
         margin: 1rem 0;
     }
 </style>
 """, unsafe_allow_html=True)
+
 
 # Scenario Runner Functions
 def extract_serialisable_results(auditor):
