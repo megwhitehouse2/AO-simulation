@@ -19,7 +19,7 @@ streamlit run streamlit_app.py
 
 ### Access
 - **Local**: http://localhost:8501
-- **Production**: https://[your-app-name].streamlit.app
+- **Production**: https://ao-simulation.streamlit.app
 
 ## Overview
 
@@ -137,8 +137,6 @@ AO-simulation/
     
 ```
 
-
-**Clinical Note**: This simulation models Assessment and Outcome services that integrate with community CAMHS treatments. Clinical decision-making should incorporate additional factors beyond model outputs, including individual patient needs and local service constraints.
 
 ## Function Documentation
 
