@@ -1,6 +1,6 @@
 # Mental Health Service Simulation
 
-A discrete event simulation model which utilises the 'SimPy' package to assess patient flow through Assertive Outreach (AO) Devon. Scenario analysis explores hypothetical scenarios relating to likely future demand, suggesting utility for this model as a decision support tool. 
+A discrete event simulation model which utilises the 'SimPy' package to assess patient flow through Assertive Outreach (AO) Devon. Scenario analysis explores likely future demand, suggesting utility for this model as a decision support tool. 
 
 ## Quick Start
 
