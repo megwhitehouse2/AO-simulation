@@ -157,8 +157,7 @@ All original docstrings and comments have been preserved from the research imple
 
 ## Acknowledgments
 
-- [NHS Devon] for providing historical AO service data
-- The Devon Assertive Outreach team for clinical context and validation
+-  The Devon Assertive outreach team for providing the historical service data, as well as clinical context for the project.
 
 ---
 
