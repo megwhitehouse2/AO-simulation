@@ -77,11 +77,11 @@ Step 1: CAMHS Referral
 
 ## Key Features
 
-- **Interactive Interface**: Streamlit-based parameter configuration
+- **Interactive Interface**: Streamlit-based parameter configuration, using toggle functionality to run the simulation
 - **Scenario Analysis**: Baseline vs. scenario comparisons
-- **Statistical Rigor**: 30+ replications with reproducible random seeds
+- **Statistical Rigour**: 30+ replications with reproducible random seeds
 - **Export Functionality**: CSV output for further analysis
-- **Real-time Results**: Fast discrete event simulation engine
+
 
 ## Scenarios
 
@@ -111,6 +111,7 @@ Scenario analysis uses the same run length and warm-up but replications are incr
 ## Model Validation
 
 - **Historical Accuracy**: Validated against 2021-2023 service data
+- **Unit Testing**: 85% coverage verifies baseline simulation functionality, ensuring that the components work as expected (e.g. truncation of sampling bounds, ED proportion)
 - **Statistical Validation**: K-S tests for distribution fitting
 - **Performance Metrics**: 5-10% accuracy thresholds met on most primary metrics (3/5 All Patients; Seperate Groups: 3/5 ED; 5/5 Non-ED). Instability in parameters are due to the heterogeneity in the caseload, and small sample (N = 119), making calibration challenging. 
 
