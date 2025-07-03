@@ -26,7 +26,7 @@ streamlit run streamlit_app.py
 This simulation models patient flow through Assertive Outreach, a community-based service that wraps around core CAMHS treatments. The model uses calibrated statistical distributions based on historical data (2021-2023) to support:
 
 - **Service capacity planning** under varying demand scenarios
-- **Resource allocation optimization** between patient groups
+- **Optimised resource allocation** between patient groups
 - **Policy analysis** for service inclusion/exclusion criteria
 - **Impact assessment** of demographic and referral pattern changes
 
