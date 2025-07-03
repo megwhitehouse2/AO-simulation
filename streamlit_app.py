@@ -515,7 +515,7 @@ def main():
     The interface provides:
     1. Parameter configuration (warm-up, run length, replications)
     2. Scenario selection and execution
-    3. Results visualization and comparison
+    3. Results visualisation and comparison
     4. Export functionality for further analysis
     
     All scenarios measure both:
